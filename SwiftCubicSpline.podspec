@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   }
 
   s.frameworks = 'Foundation', 'CoreGraphics'
-  s.dependency 'SAMCubicSpline', '~> 0.1.1'
+  s.dependency 'SAMCubicSpline', :git => 'https://github.com/vkaramov/SAMCubicSpline'
 end
